@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.top-links {
+  margin-bottom: 20px;
+}
+
+.top-links a {
+  text-decoration: none;
+  color: blue;
+  margin: 0 5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  height: fit-content;
+  text-align: left;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.form-row {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+label {
+  width: 100px;
+}
+
+.form-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.signup {
+  background-color: green;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.signup a {
+  text-decoration: none;
+  color: white;
+}
+
+.cancel {
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
